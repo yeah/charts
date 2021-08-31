@@ -18,7 +18,3 @@ sources:
 maintainers:
 - name: billimek
   email: jeff@billimek.com
-dependencies:
-- name: common
-  repository: https://library-charts.k8s-at-home.com
-  version: 4.0.0
