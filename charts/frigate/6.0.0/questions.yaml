@@ -1,0 +1,11 @@
+groups:
+  - name: "Fine tuning"
+    description: "Fine tuning params"
+questions:
+  - variable: shm-size
+    description: "Shared memory size"
+    group: "Fine tuning"
+    schema:
+      type: string
+      required: false
+      default: 64m
