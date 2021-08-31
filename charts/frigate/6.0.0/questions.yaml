@@ -3,6 +3,7 @@ groups:
     description: "Fine tuning params"
 questions:
   - variable: shm-size
+    label: Shared memory size
     description: "Shared memory size"
     group: "Fine tuning"
     schema:
